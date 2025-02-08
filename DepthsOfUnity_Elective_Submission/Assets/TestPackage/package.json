@@ -1,36 +1,29 @@
 {
-    "domainName": "com.testPackage",
-    "companyName": "defaultcompany",
-    "useSettingsCompanyName": true,
-    "packageName": "depthsofunity_elective_submission",
-    "useSettingsProductName": true,
-    "version": "0.1.0",
-    "useSettingsVersion": true,
-    "displayName": "DepthsOfUnity_Elective_Submission",
-    "_useSettingsProductName": true,
-    "description": "",
-    "unity": "6000.0",
-    "useCurrentUnityVersion": true,
-    "unityRelease": "33f1",
-    "useCurrentUnityRelease": true,
-    "_dependencies": [],
-    "documentationUrl": "https://",
-    "changelogUrl": "https://",
-    "licensesUrl": "",
-    "keywords": [
-        "Unity Package"
-    ],
-    "samples": [
-        {
-            "displayName": "Sample",
-            "description": "This is a sample.",
-            "path": "Samples~/Sample"
-        }
-    ],
-    "author": {
-        "name": "DefaultCompany",
-        "useSettingsCompanyName": true,
-        "email": "author@mail.com",
-        "url": "https://"
+  "version": "1.0.2",
+  "displayName": "TestPackageName",
+  "description": "",
+  "unity": "6000.0",
+  "unityRelease": "33f1",
+  "documentationUrl": "https://",
+  "changelogUrl": "https://",
+  "licensesUrl": "",
+  "keywords": [
+    "Unity Package"
+  ],
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "This is a sample.",
+      "path": "Samples~/Sample"
     }
+  ],
+  "author": {
+    "name": "LukasCompany",
+    "email": "author@mail.com",
+    "url": "https://",
+    "UseSettingsCompanyNameAsName": true
+  },
+  "name": "com.testpackage.lukascompany.testpackagename",
+  "dependencies": {},
+  "hideFlags": 0
 }

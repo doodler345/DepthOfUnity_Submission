@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f2542c80308044f9d07ff35987b52e, type: 3}
   m_Name: PackageSettings
   m_EditorClassIdentifier: 
-  domainName: com
+  domainName: com.testPackage
   companyName: lukascompany
   useSettingsCompanyName: 1
   packageName: testpackagename
   useSettingsProductName: 1
-  version: 1.0.1
-  useSettingsVersion: 1
+  version: 1.0.2
+  useSettingsVersion: 0
   displayName: TestPackageName
   _useSettingsProductName: 1
   description: 
