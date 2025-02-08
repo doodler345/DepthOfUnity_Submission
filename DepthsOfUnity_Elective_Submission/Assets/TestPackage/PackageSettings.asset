@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: PackageSettings
   m_EditorClassIdentifier: 
   domainName: com
-  companyName: company
+  companyName: lukascompany
   useSettingsCompanyName: 1
-  packageName: package-name
+  packageName: testpackagename
   useSettingsProductName: 1
-  version: 0.0.0
+  version: 1.0.1
   useSettingsVersion: 1
-  displayName: 
+  displayName: TestPackageName
   _useSettingsProductName: 1
   description: 
-  unity: 2021.3
+  unity: 6000.0
   useCurrentUnityVersion: 1
-  unityRelease: .0f1
+  unityRelease: 33f1
   useCurrentUnityRelease: 1
   _dependencies: []
   documentationUrl: https://
@@ -37,7 +37,7 @@ MonoBehaviour:
     description: This is a sample.
     path: Samples~/Sample
   author:
-    name: Author
+    name: LukasCompany
     useSettingsCompanyName: 1
     email: author@mail.com
     url: https://
