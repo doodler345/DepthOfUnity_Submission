@@ -1,0 +1,31 @@
+{
+  "version": "1.0.7",
+  "displayName": "SubmissionPackage",
+  "description": "Collection of all submission-relevant content",
+  "unity": "6000.0",
+  "unityRelease": "33f1",
+  "documentationUrl": "https://",
+  "changelogUrl": "https://",
+  "licensesUrl": "",
+  "keywords": [
+    "Unity Package"
+  ],
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "This is a sample.",
+      "path": "Samples~/Sample"
+    }
+  ],
+  "author": {
+    "name": "LukasCompany",
+    "email": "author@mail.com",
+    "url": "https://",
+    "UseSettingsCompanyNameAsName": true
+  },
+  "name": "com.submissionpackage.lukascompany.submissionpackage",
+  "dependencies": {
+    "com.dbrizov.naughtyattributes": "2.1.4"
+  },
+  "hideFlags": 0
+}
