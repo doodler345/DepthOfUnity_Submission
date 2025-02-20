@@ -17,7 +17,7 @@ MonoBehaviour:
   useSettingsCompanyName: 1
   packageName: testpackagename
   useSettingsProductName: 1
-  version: 1.0.2
+  version: 1.0.3
   useSettingsVersion: 0
   displayName: TestPackageName
   _useSettingsProductName: 1
