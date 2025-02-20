@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SimpleSaveSystem;
 
-public class SaveSystemTester : MonoBehaviour
+public class SaveSystemSampleTester : MonoBehaviour
 {
     private bool gameRunning = false;
 
