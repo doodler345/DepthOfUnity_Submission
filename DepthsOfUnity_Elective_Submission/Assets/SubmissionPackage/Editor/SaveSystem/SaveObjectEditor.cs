@@ -9,20 +9,11 @@ public class SaveObjectEditor : Editor
     {
         base.OnInspectorGUI();
 
-        DrawButton(target as UnityEngine.Object);
-
-        SaveObject targetScript = (SaveObject)target;
-        if (targetScript.SaveFileName == "")
-        {
-            EditorGUILayout.HelpBox("Save File Name missing", MessageType.Warning);
-        }
-        if (!targetScript.IsEveryDataNamed())
-        {
-            EditorGUILayout.HelpBox("At lease one Value Name missing", MessageType.Warning);
-        }
+        DrawButtons(target as UnityEngine.Object);
+        DrawHelpBoxes();
     }
 
-    private void DrawButton(UnityEngine.Object target)
+    private void DrawButtons(UnityEngine.Object target)
     {
         var methodInfos = target.GetType().GetMethods(System.Reflection.BindingFlags.Instance
             | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
@@ -41,6 +32,19 @@ public class SaveObjectEditor : Editor
                     methodInfo.Invoke(target, null);
                 }
             }
+        }
+    }
+
+    private void DrawHelpBoxes()
+    {
+        SaveObject targetScript = (SaveObject)target;
+        if (targetScript.SaveFileName == "")
+        {
+            EditorGUILayout.HelpBox("Save File Name missing", MessageType.Warning);
+        }
+        if (!targetScript.IsEveryDataNamed())
+        {
+            EditorGUILayout.HelpBox("At lease one Value Name missing", MessageType.Warning);
         }
     }
 }

@@ -486,8 +486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gizmoType: 5
-  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
   onlyDrawWhenSelected: 1
+  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
   originPositionOffset: {x: 0, y: 0, z: 0}
   endPositionOffset: {x: 0, y: 1, z: 0}
   direction: {x: 0, y: -1.69, z: 0}

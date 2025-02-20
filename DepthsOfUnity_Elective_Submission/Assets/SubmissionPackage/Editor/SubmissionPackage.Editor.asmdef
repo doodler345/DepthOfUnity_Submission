@@ -1,8 +1,8 @@
 {
-    "name": "TestPackage",
+    "name": "SubmissionPackage.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+        "GUID:5e308e60520778c4abae204e8f854665"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
