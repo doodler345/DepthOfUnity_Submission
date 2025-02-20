@@ -17,7 +17,7 @@ MonoBehaviour:
   useSettingsCompanyName: 1
   packageName: testpackagename
   useSettingsProductName: 1
-  version: 1.0.4
+  version: 1.0.5
   useSettingsVersion: 0
   displayName: TestPackageName
   _useSettingsProductName: 1
@@ -27,7 +27,7 @@ MonoBehaviour:
   unityRelease: 33f1
   useCurrentUnityRelease: 1
   _dependencies:
-  - name: NaughtyAttributes
+  - name: com.dbrizov.naughtyattributes
     version: 2.1.4
   documentationUrl: https://
   changelogUrl: https://

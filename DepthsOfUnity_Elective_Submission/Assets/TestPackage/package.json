@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "TestPackageName",
   "description": "",
   "unity": "6000.0",
@@ -25,7 +25,7 @@
   },
   "name": "com.testpackage.lukascompany.testpackagename",
   "dependencies": {
-    "NaughtyAttributes": "2.1.4"
+    "com.dbrizov.naughtyattributes": "2.1.4"
   },
   "hideFlags": 0
 }
