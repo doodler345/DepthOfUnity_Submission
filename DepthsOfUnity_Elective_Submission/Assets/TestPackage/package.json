@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "displayName": "TestPackageName",
-  "description": "",
+  "version": "1.0.6",
+  "displayName": "SubmissionPackage",
+  "description": "Collection of all submission-relevant content",
   "unity": "6000.0",
   "unityRelease": "33f1",
   "documentationUrl": "https://",
@@ -23,7 +23,7 @@
     "url": "https://",
     "UseSettingsCompanyNameAsName": true
   },
-  "name": "com.testpackage.lukascompany.testpackagename",
+  "name": "com.submissionpackage.lukascompany.submissionpackage",
   "dependencies": {
     "com.dbrizov.naughtyattributes": "2.1.4"
   },

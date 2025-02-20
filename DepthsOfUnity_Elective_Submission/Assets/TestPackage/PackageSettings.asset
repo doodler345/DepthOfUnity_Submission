@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f2542c80308044f9d07ff35987b52e, type: 3}
   m_Name: PackageSettings
   m_EditorClassIdentifier: 
-  domainName: com.testPackage
+  domainName: com.SubmissionPackage
   companyName: lukascompany
   useSettingsCompanyName: 1
-  packageName: testpackagename
-  useSettingsProductName: 1
-  version: 1.0.5
+  packageName: submissionpackage
+  useSettingsProductName: 0
+  version: 1.0.6
   useSettingsVersion: 0
-  displayName: TestPackageName
+  displayName: SubmissionPackage
   _useSettingsProductName: 1
-  description: 
+  description: Collection of all submission-relevant content
   unity: 6000.0
   useCurrentUnityVersion: 1
   unityRelease: 33f1
