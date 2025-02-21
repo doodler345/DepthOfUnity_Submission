@@ -8,7 +8,6 @@ public class BlinkingCanvasGroup : MonoBehaviour
 
     private CanvasGroup canvasGroup;
     private float timer;
-    private float alpha;
 
     private void Awake()
     {

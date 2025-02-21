@@ -3,32 +3,35 @@ using UnityEngine;
 
 #if UNITY_EDITOR
 
-[InitializeOnLoad]
-class SaveReaderOnSelect
+namespace SimpleSaveSystem
 {
-    static GameObject currentGameObject = null;
-
-    static SaveReaderOnSelect()
+    [InitializeOnLoad]
+    class SaveReaderOnSelect
     {
-        EditorApplication.update += Update;
-    }
+        static GameObject currentGameObject = null;
 
-    static void Update()
-    {
-        GameObject obj = Selection.activeGameObject;
-
-        if (obj == null || currentGameObject == obj)
+        static SaveReaderOnSelect()
         {
-            return;
+            EditorApplication.update += Update;
         }
-        currentGameObject = obj;
 
-        SaveObject[] saveObjects = obj.GetComponents<SaveObject>();
-        if (saveObjects != null)
+        static void Update()
         {
-            for (int i = 0; i < saveObjects.Length; i++)
+            GameObject obj = Selection.activeGameObject;
+
+            if (obj == null || currentGameObject == obj)
             {
-                saveObjects[i].Read();
+                return;
+            }
+            currentGameObject = obj;
+
+            SaveObject[] saveObjects = obj.GetComponents<SaveObject>();
+            if (saveObjects != null)
+            {
+                for (int i = 0; i < saveObjects.Length; i++)
+                {
+                    saveObjects[i].Read();
+                }
             }
         }
     }
