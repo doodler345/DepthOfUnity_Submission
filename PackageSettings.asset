@@ -17,7 +17,7 @@ MonoBehaviour:
   useSettingsCompanyName: 1
   packageName: submissionpackage
   useSettingsProductName: 0
-  version: 1.0.10
+  version: 1.0.11
   useSettingsVersion: 0
   displayName: SubmissionPackage
   _useSettingsProductName: 1
