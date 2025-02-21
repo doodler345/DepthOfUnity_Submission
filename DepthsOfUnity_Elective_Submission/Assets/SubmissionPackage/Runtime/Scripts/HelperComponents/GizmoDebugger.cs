@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GizmoDebugger
+namespace GizmoDebug
 {
     public class GizmoDebugger : MonoBehaviour
     {

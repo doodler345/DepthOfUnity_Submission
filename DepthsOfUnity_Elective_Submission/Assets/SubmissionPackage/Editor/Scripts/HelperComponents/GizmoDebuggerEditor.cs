@@ -1,5 +1,6 @@
 using UnityEditor;
 using UnityEngine;
+using GizmoDebug;
 
 [CustomEditor(typeof(GizmoDebugger))]
 public class GizmoDebuggerEditor : Editor
