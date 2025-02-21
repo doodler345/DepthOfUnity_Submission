@@ -1,8 +1,8 @@
 # DepthOfUnity_Submission
 
-Hochschule Darmstadt - Animation & Game (b.a.)
-DephtOfUnity-Elective Submission (02.2025)
-Lukas Salewsky (Matr. Nr. 1117683)
+- Hochschule Darmstadt - Animation & Game (b.a.)
+- DephtOfUnity-Elective Submission (02.2025)
+- Lukas Salewsky (Matr. Nr. 1117683)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Setup (Unity):
@@ -24,7 +24,7 @@ SaveSystem:
 
 - If a SaveObject reads in data the first time and wasn't saved yet, a save-file will be automatically generated. 
 	Reading happens in the SaveObjects Start-Callback.
-- Savefiles are saved to %AppData%/LocalLow/<CompanyName>/<ProjectName>/<SaveFileName>.save
+- Savefiles are saved to %AppData%/LocalLow/"CompanyName"/"ProjectName"/"SaveFileName".save
 
 Used Editor-Scripts:
 
