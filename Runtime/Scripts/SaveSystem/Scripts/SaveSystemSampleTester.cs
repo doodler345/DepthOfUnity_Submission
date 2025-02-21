@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+using SimpleSaveSystem;
 
 public class SaveSystemSampleTester : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class SaveSystemSampleTester : MonoBehaviour
         gameRunning = true;
     }
 
-    [Button]
+    [NaughtyAttributes.Button]
     private void ChangeMasterVolume()
     {
         if (!gameRunning)
@@ -31,7 +31,7 @@ public class SaveSystemSampleTester : MonoBehaviour
         //saveObject.Save(); 
     }
 
-    [Button]
+    [NaughtyAttributes.Button]
     private void PrintLukasNPCInfo()
     {
         if (!gameRunning)
@@ -68,7 +68,7 @@ public class SaveSystemSampleTester : MonoBehaviour
         Debug.Log(printText);
     }
 
-    [Button]
+    [NaughtyAttributes.Button]
     private void ChangeLukasNPCPosition()
     {
         if (!gameRunning)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using InterpolateExtentionMethods;
 
 public class InterpolateExtensionMethodsTester : MonoBehaviour
 {
