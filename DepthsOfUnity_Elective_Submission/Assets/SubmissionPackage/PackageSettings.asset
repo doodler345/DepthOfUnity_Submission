@@ -17,7 +17,7 @@ MonoBehaviour:
   useSettingsCompanyName: 1
   packageName: submissionpackage
   useSettingsProductName: 0
-  version: 1.0.13
+  version: 1.0.14
   useSettingsVersion: 0
   displayName: SubmissionPackage
   _useSettingsProductName: 1
@@ -35,9 +35,9 @@ MonoBehaviour:
   keywords:
   - Unity Package
   samples:
-  - displayName: SubmissionScene
+  - displayName: SubmissionSamples
     description: Scene with examples how to use the submission contents
-    path: Samples~/SubmissionScene
+    path: Samples~/SubmissionSamples
   author:
     name: LukasCompany
     useSettingsCompanyName: 1

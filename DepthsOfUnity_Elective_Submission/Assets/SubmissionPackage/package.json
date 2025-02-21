@@ -1,5 +1,5 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "displayName": "SubmissionPackage",
   "description": "Collection of all submission-relevant content",
   "unity": "6000.0",
@@ -12,9 +12,9 @@
   ],
   "samples": [
     {
-      "displayName": "SubmissionScene",
+      "displayName": "SubmissionSamples",
       "description": "Scene with examples how to use the submission contents",
-      "path": "Samples~/SubmissionScene"
+      "path": "Samples~/SubmissionSamples"
     }
   ],
   "author": {
