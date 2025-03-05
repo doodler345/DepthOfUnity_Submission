@@ -1,6 +1,6 @@
 {
-  "version": "1.0.16",
-  "displayName": "SubmissionPackage",
+  "version": "1.0.17",
+  "displayName": "DepthOfUnitySubmissionPackage",
   "description": "Collection of all submission-relevant content",
   "unity": "6000.0",
   "unityRelease": "33f1",
@@ -23,7 +23,7 @@
     "url": "https://",
     "UseSettingsCompanyNameAsName": true
   },
-  "name": "com.submissionpackage.lukascompany.submissionpackage",
+  "name": "com.submissionpackage.lukascompany.depthofunitysubmissionpackage",
   "dependencies": {
     "com.dbrizov.naughtyattributes": "2.1.4"
   },
