@@ -15,12 +15,12 @@ MonoBehaviour:
   domainName: com.SubmissionPackage
   companyName: lukascompany
   useSettingsCompanyName: 1
-  packageName: submissionpackage
+  packageName: DepthOfUnitySubmissionPackage
   useSettingsProductName: 0
-  version: 1.0.16
+  version: 1.0.17
   useSettingsVersion: 0
-  displayName: SubmissionPackage
-  _useSettingsProductName: 1
+  displayName: DepthOfUnitySubmissionPackage
+  _useSettingsProductName: 0
   description: Collection of all submission-relevant content
   unity: 6000.0
   useCurrentUnityVersion: 1
