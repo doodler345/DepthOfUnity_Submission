@@ -1,7 +1,7 @@
 # DepthOfUnity_Submission
 
 - Hochschule Darmstadt - Animation & Game (b.a.)
-- DephtOfUnity-Elective Submission (02.2025)
+- DepthOfUnity-Elective Submission (02.2025)
 - Lukas Salewsky (Matr. Nr. 1117683)
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -16,20 +16,20 @@ SaveSystem:
 	
 - SaveSystem.cs (Static class) handles saving/reading
 - SaveObject.cs (MonoBehaviour) represents a single SaveFile (multiple SaveObjects are possible). 
-	- Here the user can:
+	- Possibilities in the Inspector Window:
 		- Set the SaveFileName
-		- Set saveable Data (Single Data/List Data) with individual ValueNames
-		- Set corresponding default values (if values get reset)
-	- Possible data-Types: bool, int, float, string
+		- Set the data which should be saved (either single data or list data) and set a specific value name
+		- Set the corresponding default values (if values get reset)
+	- Possible data-types: bool, int, float, string
 
 - If a SaveObject reads in data the first time and wasn't saved yet, a save-file will be automatically generated. 
-	Reading happens in the SaveObjects Start-Callback.
+	Reading happens automatically in the SaveObjects Start-Callback.
 - Savefiles are saved to %AppData%/LocalLow/"CompanyName"/"ProjectName"/"SaveFileName".save
 
-Used Editor-Scripts:
+Editor-Scripts:
 
 - SaveReaderOnSelect.cs 
-	- Reads in the data into the SaveObject as soon as the holding GameObject gets selected in Editor
+	- Reads in the data into the SaveObject as soon as the corresponding GameObject gets selected in Editor
 - SaveObjectEditor.cs 
 	- Draws Inspector-Buttons for Methods (Read, Write, Reset All)
 	- Draws Inspector-HelpBoxes if SaveFileName or ValueName is empty
@@ -45,7 +45,7 @@ HelperComponents:
 	- Draws the selected GizmoType (Cube, Sphere, Line, Ray, WireCube, WireSphere)
 	- Properties like color, size and originPositionOffset can be set by the user
 
-Used Editor-Scripts:
+Editor-Scripts:
 
 - BlinkingCanvasGroupEditor.cs
 	- Draws a Inspector-Progressbar, which goes up-and-down like the CanvasGroup alpha-value to preview the blinking speed during runtime.
@@ -73,6 +73,8 @@ Parameters for the methods are usually
 	- Color:
 		- INTERPOverTime changes the value
 		
+IMPORTANT: All Interpolation-Methods are Coroutines. Call them via StartCoroutine(instance.INTERP...)
+
 - InterpolateEase.cs (Scriptable Singleton) stores globally accessible EaseTypes (AnimationCurves)
 	- Linear
 	- InSine
